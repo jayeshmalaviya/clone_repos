@@ -25,7 +25,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DemoApplication {
 
-  private static final String GITHUB_TOKEN = "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"; // Replace with your GitHub token
+  private static final String GITHUB_TOKEN = "token"; // Replace with your GitHub token
   private static final String GITHUB_API_URL = "https://api.github.com/orgs/gaiangroup/repos";
   private static final String CLONE_DIR = "/home/gaian/Downloads/repos"; // Replace with your username
 
